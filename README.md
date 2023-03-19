@@ -3,7 +3,7 @@
 
 This repository contains multiple Python scrips to work on NGS dataset.
 
-# 1) NCBI to UCSC SAM Converter 
+# 1) NCBI to UCSC SAM 
 The script, ncbi_to_ucsc.py, takes an input file with NCBI chromosome codes and one or more SAM/BAM files with NCBI chromosome identifiers, and outputs modified SAM/BAM files with UCSC chromosome identifiers.
 Run the script using the following command:
 python2 ncbi_to_ucsc.py NC_chr.txt input.sam output.sam
